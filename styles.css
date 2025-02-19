@@ -1,0 +1,58 @@
+/* Diseño minimalista con colores pastel */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; /* Fondo pastel */
+    color: #333; /* Texto oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9a7d4; /* Rosa pastel */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f9a7d4; /* Rosa pastel */
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
